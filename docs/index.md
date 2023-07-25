@@ -1,3 +1,3 @@
-# Welcome to PyRIID's documentation!
+# Usage
 
 {!README.md!}
