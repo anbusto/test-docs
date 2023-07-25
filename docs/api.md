@@ -2,8 +2,6 @@
 
 
 ::: riid
-    options:
-      show_source: true
 
 ## ::: riid.data
 
