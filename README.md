@@ -7,7 +7,7 @@
 
 This repository contains the PyRIID package (as well as tests and examples) which provides utilities that support machine learning-based research and solutions to radioisotope identification.
 
-### Installation
+## Installation
 
 These instructions assume you meet the following requirements:
 
@@ -19,7 +19,7 @@ A virtual environment is recommended.
 Tests and examples are ran via Actions on many combinations of Python version and operating system.
 You can verify support for your platform by checking the workflow files.
 
-#### For Use
+### For Use
 
 To use the latest version on PyPI (note: changes are currently slower to appear here), run:
 
@@ -33,7 +33,7 @@ pip install riid
 pip install git+https://github.com/sandialabs/pyriid.git@main
 ```
 
-#### For Development
+### For Development
 
 If you are developing PyRIID, clone this repository and run:
 
@@ -47,11 +47,11 @@ pip install -e ".[dev]"
 pip install -e ".[dev]" --config-settings editable_mode=compat
 ```
 
-### Examples
+## Examples
 
 Examples for how to use this package can be found [here](https://github.com/sandialabs/PyRIID/blob/main/examples).
 
-### Tests
+## Tests
 
 Unit tests for this package can be found [here](https://github.com/sandialabs/PyRIID/blob/main/tests).
 
@@ -63,22 +63,22 @@ python -m unittest tests/*.py -v
 
 You can also run one of the `run_tests.*` scripts, whichever is appropriate for your platform.
 
-### Contributing
+## Contributing
 
 Pull requests are welcome.
 For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate and adhere to our [code of conduct](https://github.com/sandialabs/PyRIID/blob/main/CODE_OF_CONDUCT.md).
 
-### Contacts
+## Contacts
 
 Maintainers and authors can be found [here](https://github.com/sandialabs/PyRIID/blob/main/pyproject.toml).
 
-### Copyright
+## Copyright
 
 Full copyright details are outlined [here](https://github.com/sandialabs/PyRIID/blob/main/NOTICE.md)
 
-### Acknowlegements
+## Acknowlegements
 
 **Thank you** to the U.S. Department of Energy, National Nuclear Security Administration,
 Office of Defense Nuclear Nonproliferation Research and Development (DNN R&D) for funding that has led to version `2.x`.
