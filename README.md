@@ -7,7 +7,7 @@
 
 This repository contains the PyRIID package (as well as tests and examples) which provides utilities that support machine learning-based research and solutions to radioisotope identification.
 
-## Installation
+### Installation
 
 These instructions assume you meet the following requirements:
 
