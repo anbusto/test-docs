@@ -1,8 +1,17 @@
 # How To Add Custom Pages to RTD pages
 
-1. Create a .md new file in the docs folder
+1. Create a `.md` new file in the `docs` folder
 
-2. Add your markdown text that will be static
+2. Add your markdown text that will be static on that page
+
+3. Open the [mkdocs.yml](../mkdocs.yml) file and add the `.md` file that you created in the following section, so that you can control where it goes in the table of contents.
+
+```
+nav:
+    - Home: 'index.md'
+    - API Reference: 'api.md'
+    - Developer: 'howto.md'
+```
 
 
 

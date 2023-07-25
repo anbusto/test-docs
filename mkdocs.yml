@@ -19,4 +19,5 @@ markdown_extensions:
   - admonition
 nav:
     - Home: 'index.md'
-    - About: 'howto.md'
+    - API Reference: 'api.md'
+    - Developer: 'howto.md'
