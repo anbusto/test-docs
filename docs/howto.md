@@ -4,7 +4,7 @@
 
 2. Add your markdown text that will be static on that page
 
-3. Open the [mkdocs.yml](../mkdocs.yml) file and add the `.md` file that you created in the following section, so that you can control where it goes in the table of contents.
+3. Open the `mkdocs.yml` file and add the `.md` file that you created in the following section, so that you can control where it goes in the table of contents.
 
 ```
 nav:
@@ -13,6 +13,7 @@ nav:
     - Developer: 'howto.md'
 ```
 
+For more information and styling of pages, you can find more information [here.](https://mkdocs.readthedocs.io/en/0.14.0/user-guide/writing-your-docs/#configure-pages-and-navigation)
 
 
 # API reference configurations
