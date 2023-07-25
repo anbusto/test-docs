@@ -2,19 +2,19 @@
 
 
 ::: riid
---------
+    options:
+      show_source: true
 
-## riid.data
 ::: riid.data
+    options:
+      show_source: true
 
-## riid.gadras
 ::: riid.gadras
 
-## riid.models
 ::: riid.models
 
-## riid.anomaly.py
+
 ::: riid.anomaly
 
-## riid.visualize.py
+
 ::: riid.visualize
