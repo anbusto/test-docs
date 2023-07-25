@@ -17,6 +17,6 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
   - admonition
-pages:
+nav:
     - Home: 'index.md'
     - About: 'howto.md'
