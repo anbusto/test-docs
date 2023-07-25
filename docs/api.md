@@ -9,12 +9,4 @@
     options:
       show_source: true
 
-::: riid.gadras
-
-::: riid.models
-
-
-::: riid.anomaly
-
-
-::: riid.visualize
+[riid.data][]
