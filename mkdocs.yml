@@ -5,11 +5,13 @@ theme:
 plugins:
   - search
   - mkdocstrings:
+      enabled: !ENV [ENABLE_MKDOCSTRINGS, true]
+      custom_templates: templates
+      default_handler: python
       handlers:
-        # See: https://mkdocstrings.github.io/python/usage/
         python:
           options:
-            docstring_style: sphinx
+            show_source: false
 markdown_extensions:
   - markdown_include.include:
       base_path: .
