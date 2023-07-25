@@ -19,8 +19,8 @@ markdown_extensions:
   - admonition
 nav:
     - Home: 'index.md'
-      - Installation: 'README.md#installation'
-      - Examples: 'README.md#examples'
+      - Installation: 'README#installation'
+      - Examples: 'README#examples'
       - Tests: 'README.md#tests'
       - Contributing: 'README.md#contributing'
       - Contacts: 'README.md#contacts'
