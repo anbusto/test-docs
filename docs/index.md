@@ -1,13 +1,11 @@
 {!README.md!}
 
-# Welcome to Lumache's documentation!
+# Welcome to PyRIID's documentation!
 
-**Lumache** (/lu\'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients. It pulls data from the
-[Open Food Facts database](https://world.openfoodfacts.org/) and offers
-a *simple* and *intuitive* API.
+**PyRIID** (/lu\'make/) is a Python library for cooks and food lovers
+that creates recipes mixing random ingredients.
 
-Check out the [usage](usage) section for further information, including how to [install](usage#installation) the project.
+Check out the [README](../README.md) section for further information, including how to [install](../README.md#installation) the project.
 
 !!! note
 
