@@ -4,4 +4,54 @@
 
 2. Add your markdown text that will be static
 
-3. Do something next!
+
+
+# API reference configurations
+
+There are multiple styles we can use for our api. You can find more about those configurations [here.](https://mkdocstrings.github.io/python/reference/mkdocstrings_handlers/python/handler/)
+
+```
+default_config: dict = {
+    "docstring_style": "google",
+    "docstring_options": {},
+    "show_symbol_type_heading": False,
+    "show_symbol_type_toc": False,
+    "show_root_heading": False,
+    "show_root_toc_entry": True,
+    "show_root_full_path": True,
+    "show_root_members_full_path": False,
+    "show_object_full_path": False,
+    "show_category_heading": False,
+    "show_if_no_docstring": False,
+    "show_signature": True,
+    "show_signature_annotations": False,
+    "signature_crossrefs": False,
+    "separate_signature": False,
+    "line_length": 60,
+    "merge_init_into_class": False,
+    "show_docstring_attributes": True,
+    "show_docstring_description": True,
+    "show_docstring_examples": True,
+    "show_docstring_other_parameters": True,
+    "show_docstring_parameters": True,
+    "show_docstring_raises": True,
+    "show_docstring_receives": True,
+    "show_docstring_returns": True,
+    "show_docstring_warns": True,
+    "show_docstring_yields": True,
+    "show_source": True,
+    "show_bases": True,
+    "show_submodules": False,
+    "group_by_category": True,
+    "heading_level": 2,
+    "members_order": rendering.Order.alphabetical.value,
+    "docstring_section_style": "table",
+    "members": None,
+    "inherited_members": False,
+    "filters": ["!^_[^_]"],
+    "annotations_path": "brief",
+    "preload_modules": None,
+    "load_external_modules": False,
+    "allow_inspection": True,
+}
+```
